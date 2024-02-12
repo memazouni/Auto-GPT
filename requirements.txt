@@ -63,3 +63,4 @@ vcrpy @ git+https://github.com/Significant-Gravitas/vcrpy.git@master
 pytest-recording
 pytest-xdist
 flaky
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
