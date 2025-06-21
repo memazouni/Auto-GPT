@@ -63,3 +63,5 @@ vcrpy @ git+https://github.com/Significant-Gravitas/vcrpy.git@master
 pytest-recording
 pytest-xdist
 flaky
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
